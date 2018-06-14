@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.container > div {
+  border: 1px solid pink;
+}
+
+.navs {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.results-counts {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.results-featured {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.results-list {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.results-related {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.jump-to {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.location {
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.company-info {
+  grid-column: 2;
+  grid-row: 9;
+}
