@@ -4,8 +4,16 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns:  150px
+                          635px
+                          auto;
+  grid-template-rows:     85px
+                          35px
+                          50px
+                          repeat(3, 1fr)
+                          100px
+                          35px
+                          35px;
 }
 
 .container > div {
@@ -50,4 +58,14 @@
 .company-info {
   grid-column: 2;
   grid-row: 9;
+}
+
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.horizontal li {
+  display: inline;
 }
