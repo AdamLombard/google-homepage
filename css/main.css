@@ -71,6 +71,9 @@ ul.horizontal li {
   align-items: center;
   justify-content: center;
 }
+.logo img {
+  width: 80%;
+}
 
 .form {
   display: flex;
