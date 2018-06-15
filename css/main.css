@@ -4,16 +4,8 @@
 
 .container {
   display: grid;
-  grid-template-columns:  150px
-                          635px
-                          auto;
-  grid-template-rows:     85px
-                          35px
-                          50px
-                          repeat(3, 1fr)
-                          100px
-                          35px
-                          35px;
+  grid-template-columns: 150px 635px auto;
+  grid-template-rows: 85px 35px 50px repeat(3, auto) 100px 35px 35px;
 }
 
 .container > div {
@@ -60,6 +52,8 @@
   grid-row: 9;
 }
 
+/*  */
+
 ul.horizontal {
   list-style-type: none;
   margin: 0;
@@ -68,4 +62,53 @@ ul.horizontal {
 
 ul.horizontal li {
   display: inline;
+}
+
+/*  */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form * {
+  width: 100%;
+}
+
+.account-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.account-icons div {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navs nav {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.results-related-links div {
+  display: inline-block;
+}
+
+.jump-to {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
