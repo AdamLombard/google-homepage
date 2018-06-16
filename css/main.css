@@ -9,10 +9,12 @@ html {
   display: grid;
   grid-template-columns: 150px 635px auto;
   grid-template-rows: 85px 35px 50px repeat(3, auto) 100px 35px 35px;
+
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .container > div {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .navs {
