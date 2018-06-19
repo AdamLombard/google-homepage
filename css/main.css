@@ -135,3 +135,9 @@ ul.horizontal li {
   align-items: center;
   justify-content: center;
 }
+
+/*  */
+
+.logo, .form, .account-icons, .header-blank-1, .navs,.header-blank-2 {
+  background-color: #fafafa;
+}
