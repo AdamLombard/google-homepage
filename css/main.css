@@ -14,7 +14,7 @@ html {
 }
 
 .container > div {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .navs {
@@ -171,13 +171,22 @@ ul.horizontal li {
 }
 
 /*  */
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+/*  */
 li > a {
-  text-decoration: none;
   color: #777;
 }
 
 li > a:hover {
   color: #222;
+  text-decoration-line: none;
 }
 
 .navs, .results-counts, .location, .company-info, .more-items, .feedback {
@@ -231,11 +240,6 @@ li > a:hover {
 
 .link > a {
   font-size: 18px;
-  text-decoration-line: none;
-}
-
-.link > a:hover {
-  text-decoration-line: underline;
 }
 
 .link {
@@ -256,10 +260,6 @@ li > a:hover {
 
 .feedback li {
   padding: 15px;
-}
-
-.feedback li:hover {
-  text-decoration-line: underline;
 }
 
 /*  */
@@ -289,11 +289,19 @@ li > a:hover {
 }
 
 .results-related-links a {
-  text-decoration-line: none;
   font-size: 0.9rem;
   font-weight: bold;
 }
 
+/*  */
+.location p {
+  margin-top: 3px;
+  color: #999;
+}
+
+.location a, .location a:visited {
+  color: #777;
+}
 
 .company-info li {
   padding-right: 15px;
