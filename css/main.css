@@ -8,7 +8,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: 150px 635px auto;
-  grid-template-rows: 85px 35px 50px repeat(3, auto) 100px 35px 35px;
+  grid-template-rows: 85px 35px 50px repeat(4, auto) 100px 35px 35px;
 
   font-family: 'Roboto', 'Arial', sans-serif;
 }
@@ -32,49 +32,54 @@ html {
   grid-row: 4;
 }
 
-.results-list {
+.feedback {
   grid-column: 2;
   grid-row: 5;
 }
 
-.results-related {
+.results-list {
   grid-column: 2;
   grid-row: 6;
 }
 
-.jump-to {
+.results-related {
   grid-column: 2;
   grid-row: 7;
 }
 
+.jump-to {
+  grid-column: 2;
+  grid-row: 8;
+}
+
 .in-footer.top.left {
   grid-column: 1;
-  grid-row: 8;
+  grid-row: 9;
 }
 
 .location {
   grid-column: 2;
-  grid-row: 8;
+  grid-row: 9;
 }
 
 .in-footer.top.right {
   grid-column: 3;
-  grid-row: 8;
+  grid-row: 9;
 }
 
 .in-footer.bottom.left {
   grid-column: 1;
-  grid-row: 9;
+  grid-row: 10;
 }
 
 .company-info {
   grid-column: 2;
-  grid-row: 9;
+  grid-row: 10;
 }
 
 .in-footer.bottom.right {
   grid-column: 3;
-  grid-row: 9;
+  grid-row: 10;
 }
 
 /*  */
@@ -175,7 +180,7 @@ li > a:hover {
   color: #222;
 }
 
-.navs, .results-counts, .location, .company-info {
+.navs, .results-counts, .location, .company-info, .more-items, .feedback {
   color: #777;
   font-size: 13px;
 }
@@ -206,9 +211,50 @@ li > a:hover {
 }
 
 /*  */
-
-.results-counts {
+.results-counts, .more-items {
   margin-left: 15px;
+}
+
+/*  */
+.results-featured {
+  border: 1px solid gray;
+  padding: 15px;
+  border: 0.5px solid #ddd;
+  box-shadow: 0px 3px 4px -3px rgba(87,87,87,0.75);
+  border-radius: 3px;
+}
+
+.results-featured > ul {
+  padding-left: 18px;
+  line-height: 1.5;
+}
+
+.link > a {
+  font-size: 18px;
+  text-decoration-line: none;
+}
+
+.link {
+  margin-bottom: 0px;
+}
+
+.url {
+  color: green;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+.feedback {
+  margin-top: 3px;
+}
+
+.feedback li {
+  padding: 15px;
+}
+
+.feedback li:hover {
+  text-decoration-line: underline;
 }
 
 .company-info li {
