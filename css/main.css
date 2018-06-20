@@ -76,13 +76,12 @@ html {
   grid-column: 3;
   grid-row: 9;
 }
-/*  */
 
+/*  */
 ul.horizontal {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
 }
 
 ul.horizontal li {
@@ -90,7 +89,6 @@ ul.horizontal li {
 }
 
 /*  */
-
 .logo {
   display: flex;
   align-items: center;
@@ -156,7 +154,6 @@ ul.horizontal li {
 }
 
 /*  */
-
 .in-header, .in-footer {
   background-color: #fafafa;
 }
@@ -166,4 +163,48 @@ ul.horizontal li {
 }
 .in-footer.top {
   border-top: 0.5px solid #eee;
+}
+
+/*  */
+li > a {
+  text-decoration: none;
+  color: #777;
+}
+
+li > a:hover {
+  color: #222;
+}
+
+.navs, .results-counts, .location, .company-info {
+  color: #777;
+  font-size: 13px;
+}
+
+.navs li {
+  padding: 15px;
+}
+
+#is-selected {
+  padding-bottom: 18px;
+  border-bottom: 3px solid #1A73E8;
+}
+
+#is-selected > a {
+  color: #1A73E8;
+  font-weight: bold;
+}
+
+.pseudo-button {
+  border: 0.5px solid rgba(1, 1, 1, 0);
+  padding: 5px 15px;
+}
+.pseudo-button:hover {
+  border: 0.5px solid rgb(200, 200, 200);
+  background-color: #fff;
+  box-shadow: 0px 3px 4px -3px rgba(87,87,87,0.75);
+  border-radius: 2px;
+}
+
+.company-info li {
+  padding-right: 15px;
 }
