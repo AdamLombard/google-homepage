@@ -205,6 +205,12 @@ li > a:hover {
   border-radius: 2px;
 }
 
+/*  */
+
+.results-counts {
+  margin-left: 15px;
+}
+
 .company-info li {
   padding-right: 15px;
 }
