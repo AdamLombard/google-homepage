@@ -363,3 +363,9 @@ li > a:hover {
   border-radius: 2px;
   margin-right: 34px;
 }
+
+input {
+  background: url(../images/icon-search.png) no-repeat;
+  background-position: 98% 1px;
+  background-size: 64px;
+}
