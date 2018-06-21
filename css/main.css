@@ -363,6 +363,8 @@ li > a:hover {
   padding: 0 12px;
   border-radius: 2px;
   margin-right: 34px;
+  max-height: 30px;
+  min-width: 65.5px;
 }
 
 input {
