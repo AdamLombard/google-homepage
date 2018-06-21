@@ -13,7 +13,7 @@ html {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-.container > div {
+.container div {
   /* border: 1px solid pink; */
 }
 
@@ -150,12 +150,6 @@ ul.horizontal li {
 
 .results-related-links div {
   display: inline-block;
-}
-
-.jump-to {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*  */
@@ -305,4 +299,52 @@ li > a:hover {
 
 .company-info li {
   padding-right: 15px;
+}
+
+/*  */
+.jump-to {
+  display: grid;
+  grid-template-areas: ". . . . . . . . . . . .";
+  grid-auto-columns: max-content;
+  grid-auto-rows: min-content;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.jump-to .page-num.next {
+  justify-self: right;
+}
+
+.g, .o, .o.active, .gle {
+  background: url(../images/iconsheet.png) no-repeat;
+  height: 32px;
+}
+
+.g {
+  background-position: -24px 0;
+  width: 28px; }
+
+.o {
+  background-position: -74px 0;
+  width: 20px;
+}
+
+.o.active {
+  background-position: -53px 0;
+  width: 20px;
+}
+
+.gle {
+  background-position: -96px 0;
+  width: 71px;
+  height: 40px
+}
+
+.jump-to .page-num {
+  font-size: 0.8rem;
+}
+
+.page-num a {
+  color: #4285f4;
 }
